@@ -64,7 +64,7 @@ Enter number 2:
 The sum is 33
 The difference is -7
 The product is 260
-The average is 16.0
+The average is 16.5
 The distance is 7
 The maximum is 20
 The minimum is 13
