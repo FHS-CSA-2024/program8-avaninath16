@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.lang.Math.*;    
 //Your code here
-public class Program {
+public class Program8 {
     public static void main (String [] args){
     Scanner myScanner = new Scanner (System.in);
     int number1 = 0;
@@ -38,7 +38,15 @@ public class Program {
     else { 
         System.out.print("No max or min");
     }
-
+    if (number1<number2) {
+        System.out.println("The minimum is " + number1);
+    }
+    else if (number2>number1) {
+        System.out.println("The minimum is " + number2);
+    }
+    else { 
+        System.out.print("No max or min");
+    }
     
     
     
@@ -49,6 +57,17 @@ public class Program {
 
 //Paste console output below:
 /*
+Enter number 1: 
+13
+Enter number 2: 
+20
+The sum is 33
+The difference is -7
+The product is 260
+The average is 16.0
+The distance is 7
+The maximum is 20
+The minimum is 13
 
 
 */
